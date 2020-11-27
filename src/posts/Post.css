@@ -1,0 +1,55 @@
+.post {
+  width: 500px;
+  background-color: #fff;
+  margin: 1rem 0;
+  margin-left: 100px;
+  border: 1px solid #dfdfdf;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+.post-header {
+  padding: 3px 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.post-username {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.post-img {
+  object-fit: contain;
+  width: 100%;
+}
+.post-caption {
+  padding: 0 1rem;
+  font-weight: normal;
+}
+.post-caption span {
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.post-caption span:hover {
+  text-decoration: underline;
+}
+.comment {
+  padding: 0 10px 5px 10px;
+  margin: 0;
+}
+.comment-form {
+  display: flex;
+  margin-top: 1rem;
+}
+.comment-input {
+  flex: 0.9;
+}
+.comment-form button {
+  flex: 0.1;
+  color: #30409f;
+}
+@media screen and (max-width: 1020px) {
+  .post {
+    width: 80%;
+    margin: 0;
+    margin: auto;
+  }
+}
